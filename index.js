@@ -1,17 +1,21 @@
 const elem = document.querySelector(".translate");
 const text = document.getElementById("text");
 const m_box = document.getElementById("output");
-url = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
+url = "https://api.funtranslations.com/translate/morse.json";
 
 function display(message){
-    
     m_box.innerText = message;
 }
 
-function get_translate(e){
+function disp_error(e){
+    alert(e);
+}
+
+function get_translate(){
     fetch(url+"?text="+text.value)
     .then(resp => resp.json())
-    .then(data => display(data.contents.translated));
+    .then(data => display(data.contents.translated))
+    .catch(disp_error);
 }
 
 elem.addEventListener("click", get_translate);

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
@@ -11,36 +12,39 @@
     <title>Morse Generator</title>
 </head>
 <body>
-    <header class="header">
+    <header class="center-align header teal-text teal lighten-3 text-darken-4">
+
         <h3>
             Morse Code Generator
         </h3>
         <p>convert english to morse code!</p>
     </header>
-    <section class="section">
-        <div>
-            <h4>
+    <section class="section center-align">
+        <div >
+            <h5>
                 Enter your text below
-            </h4>
+            </h5>
             <textarea name="text" id="text" placeholder="I don't believe you, continue. -Dwight K. Schrute"></textarea>
             <br>
-            <button class="translate">
+            <button class="translate btn">
                 Translate
             </button>
         </div>
-        <div>
-            <h4>
-                Translation:
-            </h4>
-            <p id="output">
+        <div class="container">
+            <p class = "flow-text z-depth-1" id="output">
                 Morse Code will appear here!
             </p>
         </div>
     </section>
-    <footer class="page-footer">
-        
+    <footer class="page-footer center-align teal lighten-2">
+        <p>
+            The term Morse Code refers to either of two systems for representing letters of the alphabet, numerals, and punctuation
+            marks by an arrangement of dots, dashes, and spaces. The codes are transmitted as electrical pulses of varied lengths or
+            analogous mechanical or visual signals, such as flashing lights.
+        </p>
     </footer>
     <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="./index.js"></script>
 </body>
 </html>
