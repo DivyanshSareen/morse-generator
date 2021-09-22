@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Morse Generator</title>
 </head>
 <body>
-    
+    <header class="header">
+        <h3>
+            Morse Code Generator
+        </h3>
+        <p>convert english to morse code!</p>
+    </header>
+    <section class="section">
+        <div>
+            <h4>
+                Enter your text below
+            </h4>
+            <textarea name="text" id="text" placeholder="I don't believe you, continue. -Dwight K. Schrute"></textarea>
+            <br>
+            <button class="translate">
+                Translate
+            </button>
+        </div>
+        <div>
+            <h4>
+                Translation:
+            </h4>
+            <p id="output">
+                Morse Code will appear here!
+            </p>
+        </div>
+    </section>
+    <footer class="page-footer">
+        
+    </footer>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>

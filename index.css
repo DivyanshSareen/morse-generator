@@ -1,0 +1,13 @@
+.output {
+  border: 2px solid black;
+  width: 50%;
+  height: 7rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+textarea {
+  border: 1px checked black;
+  width: 50%;
+  height: 7rem;
+}
