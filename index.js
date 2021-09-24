@@ -11,7 +11,7 @@ function disp_error(e){
     alert(e);
 }
 
-function get_translate(){
+function get_translate(e){
     fetch(url+"?text="+text.value)
     .then(resp => resp.json())
     .then(data => display(data.contents.translated))
