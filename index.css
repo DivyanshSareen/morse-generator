@@ -2,6 +2,8 @@ body {
   margin: 0%;
   padding: 0%;
   color: teal;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .output {
@@ -15,12 +17,28 @@ textarea {
   border: 1px checked black;
   width: 50%;
   height: 7rem;
+  border-radius: 4px;
 }
 
 footer {
+  position: fixed;
+  bottom:0;
   padding: 2em;
   background: teal;
+  color: white;
 }
 header {
   padding: 1em;
+  position: fixed;
+  top:0;
+}
+button{
+  color: white;
+  background: teal;
+  border: 2px solid;
+  border-radius: 4px;
+  height: 2rem;
+}
+#title{
+  font-size: x-large;
 }
