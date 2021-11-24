@@ -4,7 +4,7 @@ Translates English text to morse code using this [API](https://funtranslations.c
 This project was developed for neogcamp portfolio submission.
 
 ### Preview
-![image](https://user-images.githubusercontent.com/59335572/134344819-5f271bfd-6560-402b-a5dd-9418a77e1b96.png)
+<img width="959" alt="image" src="https://user-images.githubusercontent.com/59335572/143213456-cc30939a-9b0a-4578-9331-46f8d2cbc755.png">
 
 
 ### Live Demo
